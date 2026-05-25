@@ -164,3 +164,41 @@ section{
 .service-card3:hover{
    background-color: rgb(196, 178, 178);
 }
+
+#doctors{
+    position:relative;
+}
+
+.doctor-panel{
+    position:sticky;
+    top:0;
+
+    min-height:50vh;
+    padding:40px 80px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+
+    background:white;
+}
+
+.team-text{
+    width:45%;
+    z-index:2;
+}
+
+.team-image{
+    width:20%;
+}
+
+.team-image img{
+    width:100%;
+    border-radius:24px;
+    object-fit:cover;
+}
+
+.doctor-panel:nth-child(1){ z-index:1; }
+.doctor-panel:nth-child(2){ z-index:2; }
+.doctor-panel:nth-child(3){ z-index:3; }
