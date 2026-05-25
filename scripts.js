@@ -60,3 +60,13 @@ document.getElementById("bookNowBtn").addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+
+const members = document.querySelectorAll(".team-content");
+
+function showMember(index) {
+  members.forEach(member => {
+    member.classList.remove("active");
+  });
+
+  members[index].classList.add("active");
+}
