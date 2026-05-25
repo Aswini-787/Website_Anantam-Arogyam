@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+section{
+     min-height: 100vh;
+     border: 1px solid black ;
+}
+
+#services {
+   padding: 100px 10%;
+    background: #e1dddd;
+    text-align: center;
+}
+
+#booking {
+    padding: 100px 10%;
+    background: #e1dddd;
+    text-align: center;
+}
+
+#bookingForm {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+
+.booking_frame {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #BA897A;
+    border-radius: 20px;
+    border:none ;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.about_frame {
+    max-width: 750px;
+    height: 530px;
+    margin-left: 80px;
+    margin-top: 80px;
+    padding: 40px;
+    background: #726364;
+    border-radius: 20px;
+    border:none ;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#bookingForm input,
+#bookingForm select,
+#bookingForm textarea {
+    padding: 15px ;
+    border: none;
+    
+}
+#bookNowBtn{
+   background-color:#BA897A;
+   max-width: 200px; 
+   align-self: center;
+   color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#bookNowBtn:hover{
+ background-color: #2a3042;  
+}
+
+.book{
+   background-color: #353C52;
+   max-width: 200px; 
+   align-self: center;
+   color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.book:hover {
+    background-color: #2a3042;
+}
+
+.larger-text-service
+{
+   font-family:  sans-serif;
+   color:#353C52;
+   font-size: 40px;;
+}
+.larger-text
+{
+   font-family:  sans-serif;
+   color:#353C52;
+   font-size: 30px;;
+}
+
+.services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.carousel-container {
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.service-card1 {
+    min-width: 300px;
+    margin-right: 20px;
+    padding: 30px;
+    background: #554A53;
+    border-radius: 20px;
+}
+
+.service-card1:hover{
+   background-color: rgb(196, 178, 178)/*#685b66*/;
+}
+.service-card2 {
+    min-width: 300px;
+    min-height: 400px;
+    margin-right: 20px;
+    padding: 30px;
+    background: #726364;
+    border-radius: 20px;
+}
+
+.service-card2:hover{
+   background-color: rgb(196, 178, 178)/* #917e7f*/;
+}
+
+.service-card3 {
+    min-width: 300px;
+    margin-right: 20px;
+    padding: 30px;
+    background: #9A686B;
+    border-radius: 20px;
+}
+
+.service-card3:hover{
+   background-color: rgb(196, 178, 178);
+}
